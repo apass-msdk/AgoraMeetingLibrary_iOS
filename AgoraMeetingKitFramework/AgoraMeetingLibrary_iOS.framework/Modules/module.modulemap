@@ -1,0 +1,6 @@
+framework module AgoraMeetingKit {
+  umbrella header "AgoraMeetingKit.h"
+
+  export *
+  module * { export * }
+}
