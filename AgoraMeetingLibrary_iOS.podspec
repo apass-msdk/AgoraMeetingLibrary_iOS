@@ -25,7 +25,7 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'winok8' => 'winok8@gmail.com' }
-  s.source           = { :git => 'https://github.com/apass-msdk/AgoraMeetingLibrary_iOS.git', :tag => 'main' }
+  s.source           = { :git => 'https://github.com/apass-msdk/AgoraMeetingLibrary_iOS.git', :tag => s.version.to_s  }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
@@ -33,7 +33,7 @@ TODO: Add long description of the pod here.
   s.frameworks = 'UIKit'
   s.static_framework = true
   
-  s.vendored_frameworks = 'AgoraMeetingKitFramework/AgoraMeetingLibrary_iOS.framework'
+  s.vendored_frameworks = 'AgoraMeetingKitFramework/AgoraMeetingKit.framework'
   s.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 arm64' }
   s.dependency  'Socket.IO-Client-Swift', '~> 13.1.0'
   s.dependency  'MJExtension','~> 3.2.1'
