@@ -108,7 +108,12 @@ typedef enum {
     /**
      @brief 会议已经被锁定
      */
-    AMErrorCode_MEETING_LOCKED =  3026
+    AMErrorCode_MEETING_LOCKED =  3026,
+    
+    /**
+     @brief 会议已经被结束
+     */
+    AMErrorCode_MEETING_FINISHED =  20007
  
 } AMErrorCode;
 

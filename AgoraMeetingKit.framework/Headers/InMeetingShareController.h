@@ -145,11 +145,13 @@ NS_ASSUME_NONNULL_BEGIN
  @param screenCaptureSourceInfo 共享信息
  @param mediaOptions 频道媒体设置选项
  @param screenCaptureParameters 屏幕共享的参数配置
+ @param scenarioType 屏幕共享的场景
  @return 操作码
  */
 -(AMErrorCode)startShareScreenContent:(AgoraScreenCaptureSourceInfo*)screenCaptureSourceInfo
                            parameters:(AgoraScreenCaptureParameters*)screenCaptureParameters
-                         mediaOptions:(AgoraRtcChannelMediaOptions*)mediaOptions;
+                         mediaOptions:(AgoraRtcChannelMediaOptions*)mediaOptions
+                screenCaptureScenario:(AgoraScreenScenarioType)scenarioType;
 /**
  @brief 更新屏幕共享的配置
  @param mediaOptions 频道媒体设置选项
@@ -202,7 +204,12 @@ NS_ASSUME_NONNULL_BEGIN
 - (void) stopShareScreen;
 
 
- 
+/**
+ * @return true：是的 false：不是
+ * @brief  是否正在进行本地共享屏幕
+ */
+-(BOOL) isLocalSharing;
+
 @end
 
 NS_ASSUME_NONNULL_END
