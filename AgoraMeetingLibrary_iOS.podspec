@@ -32,7 +32,7 @@ TODO: Add long description of the pod here.
 
   s.frameworks = 'UIKit'
   s.static_framework = true
-  s.vendored_frameworks = 'AgoraMeetingKitFramework/AgoraMeetingKit.framework'
+  s.vendored_frameworks = 'AgoraMeetingKitFramework/AgoraMeetingLibrary_iOS.framework'
   s.dependency  'MJExtension','~> 3.2.1'
   s.dependency  'AgoraRtcEngine_Special_iOS', '4.1.1.231'
   s.dependency  'AFNetworking/Serialization',   '~> 4.0.1'
