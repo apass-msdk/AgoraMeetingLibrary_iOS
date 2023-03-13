@@ -19,6 +19,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 typedef void(^AMForceLogoutCallback)(void);
 
+typedef void(^AMTokenTimeoutCallback)(void);
+
 typedef void(^AMMessageCallback)(NSString* message);
 
 typedef void (^AMLoginCallBack)(AMErrorCode code,NSString* message);
@@ -46,6 +48,13 @@ typedef void (^AMInitializeCallBack)(AMErrorCode code,NSString* message);
  @param callback  被登录收到的回调
  */
 - (void)setOnForceLogoutCallBack:(AMForceLogoutCallback)callback;
+
+/**
+ @brief 设置用Token过期之后，收到的回调
+ @param callback  Token过期收到的回调
+ */
+- (void)setOnTokenTimeoutCallback:(AMTokenTimeoutCallback)callback;
+
 
 /**
  @brief 初始化函数
