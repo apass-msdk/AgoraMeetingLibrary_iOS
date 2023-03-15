@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AgoraMeetingLibrary_iOS'
-  s.version          = '1.8.4'
+  s.version          = '1.8.4.1'
   s.summary          = 'A short description of AgoraMeetingLibrary.'
 
 # This description is used to generate tags and improve search results.
@@ -29,10 +29,7 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
-  s.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 arm64' }
-
   s.frameworks = 'UIKit'
-  s.static_framework = true
   s.requires_arc = true
   s.vendored_frameworks = 'AgoraMeetingKit.framework'
   s.dependency  'MJExtension','~> 3.2.1'
