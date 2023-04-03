@@ -188,6 +188,25 @@ NS_ASSUME_NONNULL_BEGIN
 - (NSArray<AgoraRtcDeviceInfo *> * _Nullable)enumerateDevices:(AgoraMediaDeviceType)type;
 
 /**
+ @brief 设置 SDK 使用的音频采集设备跟随系统默认的音频采集设备。
+ @param enable
+ 是否跟随系统默认的音频采集设备：
+ YES：跟随。当系统默认的音频采集设备改变时，SDK 立即切换音频采集设备。
+ NO：不跟随。只有当 SDK 使用的音频采集设备被移除后，SDK 才切换至系统默认的音频采集设备。
+
+ **/
+- (int) followSystemRecordingDevice:(BOOL)enable;
+
+/**
+ @brief 设置 SDK 使用的音频播放设备跟随系统默认的音频播放设备。
+ @param enable
+ 是否跟随系统默认的音频播放设备：
+ YES：跟随。当系统默认音频播放设备发生改变时，SDK 立即切换音频播放设备。
+ NO：不跟随。只有当 SDK 使用的音频播放设备被移除后，SDK 才切换至系统默认的音频播放设备。
+ */
+- (int) followSystemPlaybackDevice:(BOOL)enable;
+
+/**
  @brief 指定设备
  @param type 设备的类型，包括音、视频采集或播放设备，详见 AgoraMediaDeviceType
  @param deviceId 设备 ID。可通过 enumerateDevices 获取。插拔设备不会影响 deviceId

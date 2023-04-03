@@ -38,7 +38,7 @@
 		</data>
 		<key>Headers/AMRTCService.h</key>
 		<data>
-		xuvqZ5HWgkI+Nl7I8hX6GjPzWXk=
+		c128FrOkstKpywjll032kxVmZ0o=
 		</data>
 		<key>Headers/AMRecordingInfo.h</key>
 		<data>
@@ -58,7 +58,7 @@
 		</data>
 		<key>Headers/AgoraMeetingInitParams.h</key>
 		<data>
-		981atxTFYQie6HOqIWpAlYJU+uc=
+		00N8KnqgaQUJUKy4PYTXAbnAMmA=
 		</data>
 		<key>Headers/AgoraMeetingInitVideoParams.h</key>
 		<data>
@@ -122,7 +122,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Bn65mrr05hmEpFCF344QaLuR4aw=
+		DwI3QrN+pkh4NfSqu0p4XQLcdow=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -223,11 +223,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			xuvqZ5HWgkI+Nl7I8hX6GjPzWXk=
+			c128FrOkstKpywjll032kxVmZ0o=
 			</data>
 			<key>hash2</key>
 			<data>
-			ffGZEFWFRUzdQGcX9TQUl1wfbjvtoreSGxEoyyc1Gho=
+			xFJmvjQRF9U9Bs7I4MbJHGn/fPFsgDJhgr6YDLSu4rI=
 			</data>
 		</dict>
 		<key>Headers/AMRecordingInfo.h</key>
@@ -278,11 +278,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			981atxTFYQie6HOqIWpAlYJU+uc=
+			00N8KnqgaQUJUKy4PYTXAbnAMmA=
 			</data>
 			<key>hash2</key>
 			<data>
-			au1QU8dKyVL9GYsW1mwAUTSH035P/6BPWTHdx8zIg44=
+			qeQ0eLPe2ssR2G3MumBlAFRfioN8WSBZpb7orIDfWFs=
 			</data>
 		</dict>
 		<key>Headers/AgoraMeetingInitVideoParams.h</key>

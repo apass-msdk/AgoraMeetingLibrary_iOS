@@ -54,6 +54,19 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, assign, readwrite) BOOL  privateAgora;
 
 
+/**
+ @brief 日志目录设置
+ */
+@property (nullable, nonatomic, retain, readwrite) NSString * logdir;
+
+
+/**
+ @brief 日志过期天数 默认30天
+ */
+@property (nonatomic, assign, readwrite) NSInteger  logExpirationDays;
+
+ 
+
 
 /**
  @brief 私有化声网的参数
