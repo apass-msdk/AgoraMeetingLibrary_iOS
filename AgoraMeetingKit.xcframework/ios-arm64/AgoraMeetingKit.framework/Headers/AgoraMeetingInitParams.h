@@ -39,7 +39,7 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  @brief socket超时设置
  */
-@property (nonatomic, assign, readwrite) NSTimeInterval  socketTimeout;
+@property (nonatomic, assign, readwrite) NSTimeInterval  joinMeetingTimeout;
 
 
 /**
