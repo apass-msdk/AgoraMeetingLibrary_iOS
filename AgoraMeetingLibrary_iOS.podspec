@@ -33,7 +33,7 @@ TODO: Add long description of the pod here.
   s.requires_arc = true
   s.vendored_frameworks = 'AgoraMeetingKit.xcframework'
   s.dependency  'MJExtension','~> 3.2.1'
-  s.dependency  'AgoraRtcEngine_Special_iOS', '4.1.1.232'
+  s.dependency  'AgoraRtcEngine_Special_iOS', '4.1.1.234'
   s.dependency  'AFNetworking/Serialization',   '~> 4.0.1'
   s.dependency  'AFNetworking/Security',        '~> 4.0.1'
   s.dependency  'AFNetworking/Reachability',    '~> 4.0.1'
