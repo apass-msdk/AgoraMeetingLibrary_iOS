@@ -128,7 +128,7 @@ NS_ASSUME_NONNULL_BEGIN
  @brief  是否开启虚拟化
  @param  enable  YES:开启  NO:关闭
  */
--(void)enableVirtualBackground:(BOOL)enable;
+-(int)enableVirtualBackground:(BOOL)enable;
 
 /**
  @brief 当前开启虚拟化状态
@@ -141,7 +141,7 @@ NS_ASSUME_NONNULL_BEGIN
  @param  enable   YES:开启  NO:关闭
  @param  virtualBackgroundSource  参数
  */
-- (void)enableVirtualBackground:(BOOL)enable backData:(AgoraVirtualBackgroundSource *) virtualBackgroundSource;
+- (int)enableVirtualBackground:(BOOL)enable backData:(AgoraVirtualBackgroundSource *) virtualBackgroundSource;
  
 
 /**
@@ -156,7 +156,7 @@ NS_ASSUME_NONNULL_BEGIN
  @brief  是否开启美颜
  @param  enable  YES:开启  NO:关闭
  */
--(void)enableBeautyEffect:(BOOL)enable;
+-(int)enableBeautyEffect:(BOOL)enable;
 
 /**
  @brief 当前开启美颜状态
@@ -169,7 +169,7 @@ NS_ASSUME_NONNULL_BEGIN
  @param  enable  YES:开启  NO:关闭
  @param  options  参数
  */
--(void)setBeautyEffectOptions:(BOOL)enable options:(AgoraBeautyOptions*)options;
+-(int)setBeautyEffectOptions:(BOOL)enable options:(AgoraBeautyOptions*)options;
 
 /**
  @brief  得到美颜参数

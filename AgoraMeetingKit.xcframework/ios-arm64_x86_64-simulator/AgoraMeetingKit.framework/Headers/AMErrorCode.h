@@ -41,6 +41,11 @@ typedef enum {
      */
     AMErrorCode_SHARE_USER_PERMISSION= -10,
     
+    /**
+     * @brief 错误的设置时间
+     */
+    AMErrorCode_SETTING_TIME = -12,
+    
 
     /**
      * @brief 想要结束的结束分享不存在
