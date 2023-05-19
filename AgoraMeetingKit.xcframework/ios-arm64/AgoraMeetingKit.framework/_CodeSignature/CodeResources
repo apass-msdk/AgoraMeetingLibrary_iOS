@@ -18,7 +18,7 @@
 		</data>
 		<key>Headers/AMInMeetingService.h</key>
 		<data>
-		P4hG1HUHT4h8LiYPElYoq2bmkjk=
+		/NvW4LJKF+0BzxqrmGEjN/2sg9Y=
 		</data>
 		<key>Headers/AMMeetingInfo.h</key>
 		<data>
@@ -62,7 +62,7 @@
 		</data>
 		<key>Headers/AgoraMeetingInitVideoParams.h</key>
 		<data>
-		VtyaviRMoaNfDUnzEtkxre0yZ7s=
+		Ml3kMDgkcNCdue1KcjQk3zolO3M=
 		</data>
 		<key>Headers/AgoraMeetingJoinMeetingParams.h</key>
 		<data>
@@ -168,11 +168,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			P4hG1HUHT4h8LiYPElYoq2bmkjk=
+			/NvW4LJKF+0BzxqrmGEjN/2sg9Y=
 			</data>
 			<key>hash2</key>
 			<data>
-			zxUYkgMwl0vtIoVPTcT2oisM0dzEOxG2sxpazkwKS5s=
+			eWhVin3sDYN3pAu/ZGuUXv2nf3cFHCwVRSYga9GquaA=
 			</data>
 		</dict>
 		<key>Headers/AMMeetingInfo.h</key>
@@ -289,11 +289,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			VtyaviRMoaNfDUnzEtkxre0yZ7s=
+			Ml3kMDgkcNCdue1KcjQk3zolO3M=
 			</data>
 			<key>hash2</key>
 			<data>
-			W5ETQ+OTp04IkdJyoZF9w65RmIa2Ol1fI6CU1MrNwOw=
+			1vLOVUriKg+l6RmPiEYcI2S5eYy+9J3bBdbGcVEys1Y=
 			</data>
 		</dict>
 		<key>Headers/AgoraMeetingJoinMeetingParams.h</key>

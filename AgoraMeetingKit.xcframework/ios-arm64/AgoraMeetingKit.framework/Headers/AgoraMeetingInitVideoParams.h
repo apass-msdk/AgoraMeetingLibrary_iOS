@@ -23,6 +23,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, assign, readwrite) AgoraVideoStreamType defaultVideoStreamType;
 @property (strong, nonatomic) AgoraSimulcastStreamConfig *simulcastStreamConfig;
 
+@property (nonatomic, assign, readwrite) AgoraStreamFallbackOptions  defaultStreamFallbackOptions;
+
 @end
 
 NS_ASSUME_NONNULL_END

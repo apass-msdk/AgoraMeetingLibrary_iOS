@@ -327,6 +327,12 @@ NS_ASSUME_NONNULL_BEGIN
  */
 -(void)onFirstVideoDecoded:(NSString*) uid;
 
+/**
+ @brief rtc共享第一帧的解码
+ */
+-(void)onShareFirstVideoDecoded:(NSString*) uid;
+
+
 @end
 
 /**
