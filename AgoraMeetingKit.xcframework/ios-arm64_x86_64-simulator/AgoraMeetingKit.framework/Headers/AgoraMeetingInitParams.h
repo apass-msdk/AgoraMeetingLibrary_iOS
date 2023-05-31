@@ -30,6 +30,11 @@ NS_ASSUME_NONNULL_BEGIN
  */
 @property (nullable, nonatomic, retain, readwrite) NSString * serverUrl;
 
+/**
+ @brief rtc的appid
+ */
+@property (nullable, nonatomic, retain, readwrite) NSString * agoraAppId;
+
 ///**
 // @brief 声网ID
 // */
