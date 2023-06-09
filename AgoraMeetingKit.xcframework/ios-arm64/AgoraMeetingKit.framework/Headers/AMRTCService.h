@@ -34,6 +34,10 @@ NS_ASSUME_NONNULL_BEGIN
  */
 -(void)onRemoveDevice:(NSString * _Nonnull)deviceId type:(AgoraMediaDeviceType)deviceType;
 
+/**
+ @brief 本地第一帧渲染
+ */
+-(void)onFirstLocalVideoFrame;
 
 @end
 
