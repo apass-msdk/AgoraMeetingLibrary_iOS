@@ -774,6 +774,10 @@ NS_ASSUME_NONNULL_BEGIN
  */
 -(NSString*)getValueFromMeetingExtattrInfo:(NSString*)key;
 
+-(void)leaveMeeting;
+
+-(AMErrorCode)endMeeting;
+
 @end
 
 NS_ASSUME_NONNULL_END

@@ -52,7 +52,7 @@ NS_ASSUME_NONNULL_BEGIN
 @brief  强制退出
 */
 @property (nonatomic, assign, readwrite) BOOL force;
- 
+
 
 /**
  @brief 额外的字段

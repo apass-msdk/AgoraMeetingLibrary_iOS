@@ -46,6 +46,11 @@ typedef enum {
      */
     AMErrorCode_SETTING_TIME = -12,
     
+    /**
+     * @brief 正在加入会议
+     */
+    AMErrorCode_MEETING_JOINING  = -13,
+    
 
     /**
      * @brief 想要结束的结束分享不存在

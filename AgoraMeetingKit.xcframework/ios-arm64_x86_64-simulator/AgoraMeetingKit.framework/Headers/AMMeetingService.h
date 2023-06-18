@@ -35,20 +35,7 @@ typedef void (^AMCreateMeetingCallBack)(AMErrorCode code,NSString* message,NSStr
 -(void)joinMeeting:(AgoraMeetingJoinMeetingParams*) joinMeetingParams
           callBack: (AMMeetingCallBack)callBack;
  
-
-
-/**
- @brief 离开会议
- @param callBack 结果的回调
- */
--(void)leaveMeetingWithCallBack: (AMMeetingCallBack)callBack;
  
-/**
- @brief 结束会议，主持人调用
- @param callBack 结果的回调
- */
--(void)endmeetingMeetingWithCallBack: (AMMeetingCallBack)callBack;
-
  
 @end
 
