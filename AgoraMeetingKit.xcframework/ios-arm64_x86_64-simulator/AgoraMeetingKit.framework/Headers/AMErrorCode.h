@@ -123,10 +123,8 @@ typedef enum {
     /**
      @brief 会议已经被结束
      */
-    AMErrorCode_MEETING_FINISHED =  20007,
-    
-    AMErrorCode_MEETING_SHARING_TIMEOUT =  3016
-    
+    AMErrorCode_MEETING_FINISHED =  20007
+ 
 } AMErrorCode;
 
 #endif /* AMErrorCode_h */

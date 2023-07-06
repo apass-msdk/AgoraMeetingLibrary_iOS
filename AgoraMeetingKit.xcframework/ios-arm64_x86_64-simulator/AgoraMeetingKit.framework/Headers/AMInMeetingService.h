@@ -376,12 +376,6 @@ NS_ASSUME_NONNULL_BEGIN
 - (int)removeView:(AM_VIEW_CLASS*)view;
 
 /**
- @brief 把当前ID绑定的所有视图进行解绑
- @param agoraId  声网ID
- */
-- (void)removeViewWithAgoraId:(long)agoraId;
-
-/**
  @brief 连接会议
  */
 - (void) connect;

@@ -14,11 +14,11 @@
 		</data>
 		<key>Headers/AMErrorCode.h</key>
 		<data>
-		zCF2rcUTY14/dNTLLDSPuC4tAIs=
+		aD6Tft7Ou50w3Xho3nfQYqfdeT0=
 		</data>
 		<key>Headers/AMInMeetingService.h</key>
 		<data>
-		FABCvxB3MajqEvsZhHKw7k47tRo=
+		evrtmrownZCm1ugKUgqdJM+yErA=
 		</data>
 		<key>Headers/AMMeetingInfo.h</key>
 		<data>
@@ -70,7 +70,7 @@
 		</data>
 		<key>Headers/AgoraMeetingKit.h</key>
 		<data>
-		NS0/wZHhoOEP9CPCP9djunOpDbs=
+		GaV7PbISzlSHFhUfBo5W9jcJbnE=
 		</data>
 		<key>Headers/AgoraMeetingListMeetingParams.h</key>
 		<data>
@@ -106,7 +106,7 @@
 		</data>
 		<key>Headers/InMeetingShareController.h</key>
 		<data>
-		ij403/4/KSbl+A6EDYSdRvx4t+E=
+		Iz8XlsoEYab3KHgzsux9gPnANkw=
 		</data>
 		<key>Headers/InMeetingUserInfo.h</key>
 		<data>
@@ -157,22 +157,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			zCF2rcUTY14/dNTLLDSPuC4tAIs=
+			aD6Tft7Ou50w3Xho3nfQYqfdeT0=
 			</data>
 			<key>hash2</key>
 			<data>
-			Zi/wVLVHWytNWH1Rcj9fCPT61BlXqL4Z+oc7Ddk+THs=
+			bnUpDhK1te4hTByiP/IDUtfh5eIKNMopl3A2CaQFYdY=
 			</data>
 		</dict>
 		<key>Headers/AMInMeetingService.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			FABCvxB3MajqEvsZhHKw7k47tRo=
+			evrtmrownZCm1ugKUgqdJM+yErA=
 			</data>
 			<key>hash2</key>
 			<data>
-			baBC1BmiH6GB7D7prtEz9ZOqbZ7b+mdHg+OJWUdj/KA=
+			DeX4AQ4c/GTOUIurMAwFUQHBW/p03sbN2gKd+7yLg+A=
 			</data>
 		</dict>
 		<key>Headers/AMMeetingInfo.h</key>
@@ -311,11 +311,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			NS0/wZHhoOEP9CPCP9djunOpDbs=
+			GaV7PbISzlSHFhUfBo5W9jcJbnE=
 			</data>
 			<key>hash2</key>
 			<data>
-			vQUeibLzCx1xciJfw5vE7KSQkCT8JpQ1RWUnuj42tSI=
+			I1qKfWUbq0/5Dw75jMYWERsfNrtljQxckTpFnFxvtLc=
 			</data>
 		</dict>
 		<key>Headers/AgoraMeetingListMeetingParams.h</key>
@@ -410,11 +410,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ij403/4/KSbl+A6EDYSdRvx4t+E=
+			Iz8XlsoEYab3KHgzsux9gPnANkw=
 			</data>
 			<key>hash2</key>
 			<data>
-			3zjz8Kpc/OtZ2leChAPhoYP4HlP6F6wrMd+7n81njNI=
+			1arjFKy9ekGLjuOwX1X1YeQCXuhVLkP4uxLerS+EvXA=
 			</data>
 		</dict>
 		<key>Headers/InMeetingUserInfo.h</key>

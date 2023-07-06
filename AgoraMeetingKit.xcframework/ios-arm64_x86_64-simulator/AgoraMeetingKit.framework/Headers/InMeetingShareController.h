@@ -37,7 +37,7 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  @brief 当前用户分享屏幕失败
  */
--(void) onShareScreenFailure:(int) error;
+-(void) onShareScreenFailure:(AgoraLocalVideoStreamError) error;
 
  
 /**
