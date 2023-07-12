@@ -8,6 +8,7 @@
 #import <Foundation/Foundation.h>
 #import "AMErrorCode.h"
 #import <AgoraRtcKit/AgoraRtcEngineKit.h>
+#import "AgoraMeetingDeviceInfo.h"
 #if defined(TARGET_OS_IPHONE) && TARGET_OS_IPHONE
 #import <UIKit/UIKit.h>
 typedef UIView AM_VIEW_CLASS;
@@ -26,14 +27,20 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  @brief 电脑插入设备
  */
--(void)onAddDevice:(NSString * _Nonnull)deviceId type:(AgoraMediaDeviceType)deviceType;
-
+- (void)onAddDevice:(AgoraMeetingDeviceInfo *)deviceInfo;
 
 /**
  @brief 电脑拔出设备
  */
--(void)onRemoveDevice:(NSString * _Nonnull)deviceId type:(AgoraMediaDeviceType)deviceType;
+- (void)onRemoveDevice:(AgoraMeetingDeviceInfo *)deviceInfo;
 
+
+/**
+ @brief 默认设备改变
+ */
+- (void)onChangeDevice:(AgoraMeetingDeviceInfo *)currentDevice formerDevice:(AgoraMeetingDeviceInfo *)formerDevice;
+
+ 
 /**
  @brief 本地第一帧渲染
  */
@@ -189,7 +196,7 @@ NS_ASSUME_NONNULL_BEGIN
  @param type 设备的类型，包括音、视频采集或播放设备，详见 AgoraMediaDeviceType。
  @return 调用成功时，返回 AgoraRtcDeviceInfo NSArray 对象，包含所有的音视频设备。
  */
-- (NSArray<AgoraRtcDeviceInfo *> * _Nullable)enumerateDevices:(AgoraMediaDeviceType)type;
+- (NSArray<AgoraMeetingDeviceInfo *> * _Nullable)enumerateDevices:(AgoraMediaDeviceType)type;
 
 /**
  @brief 设置 SDK 使用的音频采集设备跟随系统默认的音频采集设备。
@@ -223,7 +230,7 @@ NS_ASSUME_NONNULL_BEGIN
  @param type 设备的类型，包括音、视频采集或播放设备
  @return 返回值
  */
-- (AgoraRtcDeviceInfo * _Nullable)getDeviceInfo:(AgoraMediaDeviceType)type;
+- (AgoraMeetingDeviceInfo * _Nullable)getDeviceInfo:(AgoraMediaDeviceType)type;
 
 #endif
 

@@ -139,6 +139,18 @@ typedef void (^AMInitializeCallBack)(AMErrorCode code,NSString* message);
 -(NSDictionary*)getVersionInfo;
 
 
+/**
+ @brief  销毁当前sdk
+ */
+-(void)destory;
+
+
+/**
+ @brief  重制当前sdk
+ */
+-(void)rest;
+
+
 @end
 
 NS_ASSUME_NONNULL_END
