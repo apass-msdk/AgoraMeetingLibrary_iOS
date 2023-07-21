@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AgoraMeetingLibrary_iOS'
-  s.version          = '1.9.3.3'
+  s.version          = '1.9.3.4'
   s.summary          = 'A short description of AgoraMeetingLibrary.'
 
 # This description is used to generate tags and improve search results.
