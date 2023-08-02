@@ -328,9 +328,11 @@ NS_ASSUME_NONNULL_BEGIN
 -(void)onFirstVideoDecoded:(NSString*) uid;
 
 /**
- @brief rtc共享第一帧的解码
+ @brief 用户音量提示回调。该回调默认禁用，你可以通过 enableAudioVolumeIndication 开启
+ @param speakers 用户音量信息
+ @param totalVolume 混音后的总音量，取值范围为 [0,255]。
  */
--(void)onShareFirstVideoDecoded:(NSString*) uid;
+-(void)reportAudioVolumeIndicationOfSpeakers:(NSArray<AgoraRtcAudioVolumeInfo *> *)speakers totalVolume:(NSNumber*)totalVolume;
 
 
 @end
@@ -780,9 +782,26 @@ NS_ASSUME_NONNULL_BEGIN
  */
 -(NSString*)getValueFromMeetingExtattrInfo:(NSString*)key;
 
+
+/**
+ @brief 离开会议
+ */
 -(void)leaveMeeting;
 
+/**
+ @brief 结束会议
+ */
 -(AMErrorCode)endMeeting;
+
+/**
+ @brief 同步方法，离开会议
+ */
+-(void)syncLeaveMeeting;
+
+/**
+ @brief 同步方法，结束会议
+ */
+-(AMErrorCode)syncEndMeeting;
 
 @end
 

@@ -18,7 +18,7 @@
 		</data>
 		<key>Headers/AMInMeetingService.h</key>
 		<data>
-		FABCvxB3MajqEvsZhHKw7k47tRo=
+		lms6VqMmerJr2Xit25EA0t+agyY=
 		</data>
 		<key>Headers/AMMeetingInfo.h</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Headers/AMRTCService.h</key>
 		<data>
-		ffK7VuhCCiYE65MAuSHQOqBIZxU=
+		WsyaNoGtLDWzOLiOWqRhwhdHUy0=
 		</data>
 		<key>Headers/AMRecordingInfo.h</key>
 		<data>
@@ -62,7 +62,7 @@
 		</data>
 		<key>Headers/AgoraMeetingInitParams.h</key>
 		<data>
-		/aL6q2M7VSAl7bY1S8T1xFFIOG8=
+		kiAWTxzFxhnQfFRFI1FkfNDW9CE=
 		</data>
 		<key>Headers/AgoraMeetingInitVideoParams.h</key>
 		<data>
@@ -110,7 +110,7 @@
 		</data>
 		<key>Headers/InMeetingShareController.h</key>
 		<data>
-		ij403/4/KSbl+A6EDYSdRvx4t+E=
+		hgA3Nyy/YKaCLc+E1oKAklcpQKI=
 		</data>
 		<key>Headers/InMeetingUserInfo.h</key>
 		<data>
@@ -126,7 +126,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		cCXXMesytuLVTlyl7tzyZkNy+us=
+		J66quRUt7BXZIfXXLumuVBlRlhA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -172,11 +172,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			FABCvxB3MajqEvsZhHKw7k47tRo=
+			lms6VqMmerJr2Xit25EA0t+agyY=
 			</data>
 			<key>hash2</key>
 			<data>
-			baBC1BmiH6GB7D7prtEz9ZOqbZ7b+mdHg+OJWUdj/KA=
+			yHbjc/D3Ef4DbSoINBOJfYMsLy17dBmeuCSiWJmUl3I=
 			</data>
 		</dict>
 		<key>Headers/AMMeetingInfo.h</key>
@@ -227,11 +227,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ffK7VuhCCiYE65MAuSHQOqBIZxU=
+			WsyaNoGtLDWzOLiOWqRhwhdHUy0=
 			</data>
 			<key>hash2</key>
 			<data>
-			cFoI8Z5EhGeDB5V8wCpH76HRVr7P2mEDtdO4qyn4+0s=
+			hc7pls+IjeNoATEDussDdPAwhzoHBQrIm34sr+vnqm4=
 			</data>
 		</dict>
 		<key>Headers/AMRecordingInfo.h</key>
@@ -293,11 +293,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			/aL6q2M7VSAl7bY1S8T1xFFIOG8=
+			kiAWTxzFxhnQfFRFI1FkfNDW9CE=
 			</data>
 			<key>hash2</key>
 			<data>
-			muTiJlnrsXktGWudWu7cgG86XSY2ZQ7kVp6HOMwvUYY=
+			Fkb3Shfpoy9z7u3YZV8ase6swkJBUCKYyjqMDyQ33Bg=
 			</data>
 		</dict>
 		<key>Headers/AgoraMeetingInitVideoParams.h</key>
@@ -425,11 +425,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ij403/4/KSbl+A6EDYSdRvx4t+E=
+			hgA3Nyy/YKaCLc+E1oKAklcpQKI=
 			</data>
 			<key>hash2</key>
 			<data>
-			3zjz8Kpc/OtZ2leChAPhoYP4HlP6F6wrMd+7n81njNI=
+			O6lrec30OWoEiq1tz/15drN/l/IboFflylnapObScZE=
 			</data>
 		</dict>
 		<key>Headers/InMeetingUserInfo.h</key>

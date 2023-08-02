@@ -16,6 +16,11 @@ NS_ASSUME_NONNULL_BEGIN
 @interface AgoraMeetingInitParams : NSObject
 
 /**
+ @brief 断网之后是否事件分发
+ */
+@property (nonatomic, assign, readwrite) BOOL  isEventDispatch;
+
+/**
  @brief 是否打印日志
  */
 @property (nonatomic, assign, readwrite) BOOL  enableLog;

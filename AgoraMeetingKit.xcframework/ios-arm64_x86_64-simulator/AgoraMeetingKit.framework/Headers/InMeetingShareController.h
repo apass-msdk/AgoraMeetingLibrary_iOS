@@ -55,9 +55,15 @@ NS_ASSUME_NONNULL_BEGIN
 -(void) onShareScreenEnd:(NSString*)uid windowId:(NSString*)windowId;
  
 /**
- @brief 获取屏幕分享的视频流
+ @brief rtc共享第一帧的解码
  */
--(void) onShareVideoFrame:(AgoraOutputVideoFrame *)videoFrame;
+-(void)onShareFirstVideoDecoded:(NSString*) uid width:(CGFloat)width height:(CGFloat)height;
+
+
+/**
+ @brief rtc共享画面的改变
+ */
+-(void)onShareChangeVideoSize:(NSString*) uid width:(CGFloat)width height:(CGFloat)height;
 
 @end
 

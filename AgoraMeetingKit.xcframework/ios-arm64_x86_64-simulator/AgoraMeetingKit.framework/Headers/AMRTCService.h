@@ -36,7 +36,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 
 /**
- @brief 默认音频设备改变
+ @brief 当前音/视频设备发生变化
+ @note  主动切换或跟随系统默认设备切换都会触发
  */
 - (void)onChangeDevice:(AgoraMeetingDeviceInfo *)currentDevice formerDevice:(AgoraMeetingDeviceInfo *)formerDevice;
 
