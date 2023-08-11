@@ -62,7 +62,7 @@
 		</data>
 		<key>Headers/AgoraMeetingInitParams.h</key>
 		<data>
-		kiAWTxzFxhnQfFRFI1FkfNDW9CE=
+		M8g9IqhwAnywn+CiMvcyW0phgS8=
 		</data>
 		<key>Headers/AgoraMeetingInitVideoParams.h</key>
 		<data>
@@ -126,7 +126,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Cy5a9ymRgKdTQyYGajBDoReoF+E=
+		k80NFr2AAs76uHcXgs0CvgQBdUs=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -293,11 +293,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			kiAWTxzFxhnQfFRFI1FkfNDW9CE=
+			M8g9IqhwAnywn+CiMvcyW0phgS8=
 			</data>
 			<key>hash2</key>
 			<data>
-			Fkb3Shfpoy9z7u3YZV8ase6swkJBUCKYyjqMDyQ33Bg=
+			+OLsX5/XjFLQbwXxa5RJoEHwbOxzrEOg5yveX0XVh0M=
 			</data>
 		</dict>
 		<key>Headers/AgoraMeetingInitVideoParams.h</key>
