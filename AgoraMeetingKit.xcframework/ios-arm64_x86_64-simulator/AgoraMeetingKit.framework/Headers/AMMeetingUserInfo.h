@@ -14,27 +14,27 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  @brief  邮箱
  */
-@property (nullable, nonatomic, retain, readwrite) NSString * email;
+@property (nullable, nonatomic, retain, readwrite) NSString *email;
 
 /**
  @brief 昵称
  */
-@property (nullable, nonatomic, retain, readwrite) NSString * nickname;
+@property (nullable, nonatomic, retain, readwrite) NSString *nickname;
 
 /**
  @brief 手机号码
  */
-@property (nullable, nonatomic, retain, readwrite) NSString * mobile;
+@property (nullable, nonatomic, retain, readwrite) NSString *mobile;
 
 /**
  @brief 用户ID
  */
-@property (nullable, nonatomic, retain, readwrite) NSString * userid;
+@property (nullable, nonatomic, retain, readwrite) NSString *userid;
 
 /**
  @brief 头像
  */
-@property (nullable, nonatomic, retain, readwrite) NSString * avatar;
+@property (nullable, nonatomic, retain, readwrite) NSString *avatar;
 
 @end
 

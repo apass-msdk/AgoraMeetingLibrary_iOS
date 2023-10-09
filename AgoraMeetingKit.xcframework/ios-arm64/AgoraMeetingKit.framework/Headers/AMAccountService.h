@@ -17,12 +17,12 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  @brief 账号名称
  */
--(NSString*)getAccountName;
+- (NSString *)getAccountName;
 
 /**
  @brief 账号头像
  */
--(NSString*)getAvatarImgUrl;
+- (NSString *)getAvatarImgUrl;
 
 @end
 

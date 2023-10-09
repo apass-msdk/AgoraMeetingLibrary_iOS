@@ -17,7 +17,7 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  @brief 接受数据的事件
  */
--(void) onReceiveMessage:(NSDictionary*)dic;
+- (void)onReceiveMessage:(NSDictionary *)dic;
 
 @end
 
@@ -36,7 +36,7 @@ NS_ASSUME_NONNULL_BEGIN
  @param groupName 群组名称
  @param key 关键字
  */
--(void) del:(NSString*) groupName key:(NSString*) key;
+- (void)del:(NSString *)groupName key:(NSString *)key;
 
 /**
  @brief 添加OT数据
@@ -44,16 +44,14 @@ NS_ASSUME_NONNULL_BEGIN
  @param key 关键字
  @param value 值
  */
--(void) put:(NSString*) groupName key:(NSString*) key value:(NSString*)value;
+- (void)put:(NSString *)groupName key:(NSString *)key value:(NSString *)value;
 
 /**
  @brief 得到群组的OT数据
  @param groupName 群组名称
  @return  数据
  */
--(NSDictionary*)getGroup:(NSString*)groupName;
+- (NSDictionary *)getGroup:(NSString *)groupName;
 @end
- 
-
 
 NS_ASSUME_NONNULL_END
