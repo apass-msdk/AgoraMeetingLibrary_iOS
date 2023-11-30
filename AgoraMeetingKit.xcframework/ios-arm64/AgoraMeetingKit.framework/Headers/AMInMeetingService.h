@@ -333,6 +333,20 @@ NS_ASSUME_NONNULL_BEGIN
  */
 - (void)reportAudioVolumeIndicationOfSpeakers:(NSArray<AgoraRtcAudioVolumeInfo *> *)speakers totalVolume:(NSNumber *)totalVolume;
 
+/**
+  @brief  视频设备错误回调
+  @param on 开启或关闭
+  @param state 详细错误信息
+ */
+- (void)onVideoDeviceChange:(BOOL)on state:(AgoraLocalVideoStreamError)state;
+
+/**
+  @brief 该回调在网络连接状态发生改变的时候触发，并告知用户当前的网络连接状态和引起网络状态改变的原因。
+  @param state 当前网络连接状态。
+  @param reason 引起当前网络连接状态改变的原因。
+ */
+- (void)onRtcConnectionChangedToState:(AgoraConnectionState)state reason:(AgoraConnectionChangedReason)reason;
+
 @end
 
 /**
