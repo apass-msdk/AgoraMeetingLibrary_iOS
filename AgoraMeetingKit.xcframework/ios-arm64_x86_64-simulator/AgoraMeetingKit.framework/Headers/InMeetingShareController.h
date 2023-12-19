@@ -5,8 +5,8 @@
 //  Created by caizehua on 2022/7/13.
 //
 
-#import <AgoraRtcKit/AgoraRtcEngineKit.h>
 #import <Foundation/Foundation.h>
+#import <AgoraRtcKit/AgoraRtcEngineKit.h>
 #if defined(TARGET_OS_IPHONE) && TARGET_OS_IPHONE
 #import <UIKit/UIKit.h>
 typedef UIView AM_VIEW_CLASS;
@@ -26,39 +26,44 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  @brief 其他用户正在分享屏幕
  */
-- (void)onShareScreenJoinByOther;
+-(void) onShareScreenJoinByOther;
 
 /**
  @brief 当前用户正在分享屏幕
  */
-- (void)onShareScreenStartByMySelf;
+-(void) onShareScreenStartByMySelf;
+
 
 /**
  @brief 当前用户分享屏幕失败
  */
-- (void)onShareScreenFailure:(int)error;
+-(void) onShareScreenFailure:(int) error;
 
+ 
 /**
  @brief 屏幕分享者发了变化
  @param uid 当前的分享者
  @param beforeUid 以前的分享者
  */
-- (void)onShareScreenChange:(NSString *)uid beforeUid:(NSString *)beforeUid;
+-(void) onShareScreenChange:(NSString*)uid beforeUid:(NSString*)beforeUid;
 
+
+ 
 /**
  @brief 屏幕分享结束
  */
-- (void)onShareScreenEnd:(NSString *)uid windowId:(NSString *)windowId;
-
+-(void) onShareScreenEnd:(NSString*)uid windowId:(NSString*)windowId;
+ 
 /**
  @brief rtc共享第一帧的解码
  */
-- (void)onShareFirstVideoDecoded:(NSString *)uid width:(CGFloat)width height:(CGFloat)height;
+-(void)onShareFirstVideoDecoded:(NSString*) uid width:(CGFloat)width height:(CGFloat)height;
+
 
 /**
  @brief rtc共享画面的改变
  */
-- (void)onShareChangeVideoSize:(NSString *)uid width:(CGFloat)width height:(CGFloat)height;
+-(void)onShareChangeVideoSize:(NSString*) uid width:(CGFloat)width height:(CGFloat)height;
 
 @end
 
@@ -66,6 +71,7 @@ NS_ASSUME_NONNULL_BEGIN
  @brief 获取会中的分享控制器
  */
 @interface InMeetingShareController : NSObject
+
 
 /**
  @brief 分享控制器的的事件回调
@@ -76,7 +82,7 @@ NS_ASSUME_NONNULL_BEGIN
  @brief 设置播放共享视频的视图
  @param view 视图
  */
-- (int)bindShareScreenView:(AM_VIEW_CLASS *)view;
+- (int) bindShareScreenView:(AM_VIEW_CLASS*)view;
 
 /**
  @brief 设置播放共享视频的视图
@@ -91,15 +97,15 @@ NS_ASSUME_NONNULL_BEGIN
  AgoraVideoMirrorModeDisabled
  2: 关闭镜像模式。
  */
-- (int)bindShareScreenView:(AM_VIEW_CLASS *)view
-            withRenderMode:(AgoraVideoRenderMode)renderMode
-            withMirrorMode:(AgoraVideoMirrorMode)mirrorMode;
+- (int) bindShareScreenView:(AM_VIEW_CLASS*)view
+              withRenderMode:(AgoraVideoRenderMode)renderMode
+              withMirrorMode:(AgoraVideoMirrorMode)mirrorMode;
 
 /**
  @brief 解绑播放共享视频的视图
  @param view 视图
  */
-- (int)removeShareScreenVideo:(AM_VIEW_CLASS *)view;
+- (int) removeShareScreenVideo:(AM_VIEW_CLASS*)view;
 
 #if defined(TARGET_OS_IPHONE) && TARGET_OS_IPHONE
 
@@ -109,8 +115,9 @@ NS_ASSUME_NONNULL_BEGIN
  @param screenCaptureParameters 屏幕共享的参数配置
  @return 操作码
  */
-- (AMErrorCode)startShareScreenContent:(AgoraScreenCaptureParameters2 *)screenCaptureParameters
-                          mediaOptions:(AgoraRtcChannelMediaOptions *)mediaOptions;
+-(AMErrorCode)startShareScreenContent:(AgoraScreenCaptureParameters2*) screenCaptureParameters
+                         mediaOptions:(AgoraRtcChannelMediaOptions*)mediaOptions;
+
 
 /**
  @brief 更新屏幕共享的配置
@@ -118,7 +125,7 @@ NS_ASSUME_NONNULL_BEGIN
  @param screenCaptureParameters 屏幕共享的参数配置
  @return YES 修改成功 NO 修改失败
  */
-- (BOOL)updateScreenCapture:(AgoraRtcChannelMediaOptions *)mediaOptions parameters:(AgoraScreenCaptureParameters2 *)screenCaptureParameters;
+-(BOOL)updateScreenCapture:(AgoraRtcChannelMediaOptions*)mediaOptions parameters:(AgoraScreenCaptureParameters2*) screenCaptureParameters;
 
 #elif defined(TARGET_OS_MAC) && TARGET_OS_MAC
 
@@ -128,7 +135,7 @@ NS_ASSUME_NONNULL_BEGIN
  YES: 开启声卡采集。
  NO:（默认）关闭声卡采集。
  */
-- (int)enableLoopbackRecording:(BOOL)enabled;
+-(int)enableLoopbackRecording:(BOOL)enabled;
 
 /**
  @brief 获取可共享的屏幕和窗口对象列表
@@ -137,7 +144,7 @@ NS_ASSUME_NONNULL_BEGIN
  @param includeScreen 除了窗口信息外，SDK 是否返回屏幕信息
  @return AgoraScreenCaptureSourceInfo 数组
  */
-- (NSArray<AgoraScreenCaptureSourceInfo *> *_Nullable)getScreenCaptureSourcesWithThumbSize:(NSSize)thumbSize iconSize:(NSSize)iconSize includeScreen:(BOOL)includeScreen;
+- (NSArray<AgoraScreenCaptureSourceInfo*>* _Nullable)getScreenCaptureSourcesWithThumbSize:(NSSize)thumbSize iconSize:(NSSize)iconSize includeScreen:(BOOL)includeScreen;
 
 /**
  @brief 开始屏幕共享
@@ -147,65 +154,67 @@ NS_ASSUME_NONNULL_BEGIN
  @param scenarioType 屏幕共享的场景
  @return 操作码
  */
-- (AMErrorCode)startShareScreenContent:(AgoraScreenCaptureSourceInfo *)screenCaptureSourceInfo
-                            parameters:(AgoraScreenCaptureParameters *)screenCaptureParameters
-                          mediaOptions:(AgoraRtcChannelMediaOptions *)mediaOptions
-                 screenCaptureScenario:(AgoraScreenScenarioType)scenarioType;
+-(AMErrorCode)startShareScreenContent:(AgoraScreenCaptureSourceInfo*)screenCaptureSourceInfo
+                           parameters:(AgoraScreenCaptureParameters*)screenCaptureParameters
+                         mediaOptions:(AgoraRtcChannelMediaOptions*)mediaOptions
+                screenCaptureScenario:(AgoraScreenScenarioType)scenarioType;
 /**
  @brief 更新屏幕共享的配置
  @param mediaOptions 频道媒体设置选项
  @param screenCaptureParameters 屏幕共享的参数配置
  @return YES 修改成功 NO 修改失败
  */
-- (BOOL)updateScreenCapture:(AgoraRtcChannelMediaOptions *)mediaOptions parameters:(AgoraScreenCaptureParameters *)screenCaptureParameters;
+-(BOOL)updateScreenCapture:(AgoraRtcChannelMediaOptions*)mediaOptions parameters:(AgoraScreenCaptureParameters*) screenCaptureParameters;
 
 #endif
+
 
 /**
  @brief 开始分享白板
  */
-- (void)startShareWhiteBoardContent;
+- (void) startShareWhiteBoardContent;
 
 /**
  @brief 是否是当前分享的人
  @return true：是的 false：不是
  */
-- (BOOL)isShareMaster;
+-(BOOL) isShareMaster;
 
 /**
  @brief 是否是当前白板的分享者
  @return true：是的 false：不是
  */
-- (BOOL)isShareWhiteBoard;
+-(BOOL) isShareWhiteBoard;
 
 /**
  @brief 是否是当前屏幕的分享的人
  @return true：是的 false：不是
  */
-- (BOOL)isShareScreen;
+-(BOOL)  isShareScreen;
 
 /**
  @brief 当前分享者的用户ID
  @return 当前分享者的用户ID
  */
-- (NSString *)shareScreenUserId;
+-(NSString*) shareScreenUserId;
 
 /**
  @brief 当前sdk是否是有人正在分享
  @return true：是的 false：不是
  */
-- (BOOL)isSharing;
+-(BOOL) isSharing;
 
 /**
  @brief 停止屏幕分享
  */
-- (void)stopShareScreen;
+- (void) stopShareScreen;
+
 
 /**
  * @return true：是的 false：不是
  * @brief  是否正在进行本地共享屏幕
  */
-- (BOOL)isLocalSharing;
+-(BOOL) isLocalSharing;
 
 @end
 

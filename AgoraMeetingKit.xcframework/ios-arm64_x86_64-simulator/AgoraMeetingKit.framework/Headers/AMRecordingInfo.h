@@ -11,8 +11,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface AMRecordingInfo : NSObject
 @property (nonatomic, assign, readwrite) long startTime;
-@property (nullable, nonatomic, retain, readwrite) NSString *status;
-@property (nullable, nonatomic, retain, readwrite) NSString *userid;
+@property (nullable, nonatomic, retain, readwrite) NSString * status;
+@property (nullable, nonatomic, retain, readwrite) NSString * userid;
 @end
 
 NS_ASSUME_NONNULL_END

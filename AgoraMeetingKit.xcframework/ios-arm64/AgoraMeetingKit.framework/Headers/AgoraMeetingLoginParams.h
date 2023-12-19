@@ -16,17 +16,17 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  @brief 从服务器获取的token
  */
-@property (nullable, nonatomic, retain, readwrite) NSString *ticket;
+@property (nullable, nonatomic, retain, readwrite) NSString * ticket;
 
 /**
  @brief 用户编号
  */
-@property (nullable, nonatomic, retain, readwrite) NSString *userid;
+@property (nullable, nonatomic, retain, readwrite) NSString * userid;
 
 /**
  @brief 头像
  */
-@property (nullable, nonatomic, retain, readwrite) NSString *avatar;
+@property (nullable, nonatomic, retain, readwrite) NSString * avatar;
 
 @end
 

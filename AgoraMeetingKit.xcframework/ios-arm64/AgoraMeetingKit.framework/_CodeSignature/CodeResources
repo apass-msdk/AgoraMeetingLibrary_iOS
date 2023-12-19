@@ -6,51 +6,51 @@
 	<dict>
 		<key>Headers/AMAccountService.h</key>
 		<data>
-		gNTHKIYUWHtiFMx6oRWpAovpP+0=
+		PJAUwa5iMejUrIO2Hy/VnvNw7us=
 		</data>
 		<key>Headers/AMChatMessageInfo.h</key>
 		<data>
-		I7fXbYy0G0a6rC+Woq70igKOxZY=
+		RQMC5GC6qGJNxiAlkl+xtqfYqJA=
 		</data>
 		<key>Headers/AMErrorCode.h</key>
 		<data>
-		QGlN5+AKloo6QRV2MTQEybvJ2II=
+		zCF2rcUTY14/dNTLLDSPuC4tAIs=
 		</data>
 		<key>Headers/AMInMeetingService.h</key>
 		<data>
-		uR4/FplJ2Vvd4D+qYyJyYfonYZo=
+		lms6VqMmerJr2Xit25EA0t+agyY=
 		</data>
 		<key>Headers/AMMeetingInfo.h</key>
 		<data>
-		1mFd+3+1qW4jLwyB2vfs9tK+gKA=
+		bNkiqQU8gY39dkGx1C7KSUSj9LU=
 		</data>
 		<key>Headers/AMMeetingService.h</key>
 		<data>
-		ik2ZASf2bIWLhERsJ7Tkw0hhrmk=
+		fY2/RAMcifACl/pQCfdxePtgvgM=
 		</data>
 		<key>Headers/AMMeetingUserInfo.h</key>
 		<data>
-		feNefoBZ05FYRWyOfV0K7YwEC50=
+		gxaP8441h18GpN7Qrou6luGsa9k=
 		</data>
 		<key>Headers/AMPreMeetingService.h</key>
 		<data>
-		yqvQtaMTgBbxE2FkQZmrBiQ23go=
+		4co901f6r14O6BviWaBsdUvMxys=
 		</data>
 		<key>Headers/AMRTCService.h</key>
 		<data>
-		g8Pmj7HBcYKrxE5rGHKPnb9Du64=
+		WsyaNoGtLDWzOLiOWqRhwhdHUy0=
 		</data>
 		<key>Headers/AMRecordingInfo.h</key>
 		<data>
-		lAtOai7miZ0OnxVMTG+KTMhnOns=
+		DxN40/Lo4tecimJ1Qla1QlCP0Jo=
 		</data>
 		<key>Headers/AMSettingsHelper.h</key>
 		<data>
-		eJucsKrj2/fpaZy7BqyWXFPlwI0=
+		aoo5tFfRiuhzppDvAFv8bktDS8I=
 		</data>
 		<key>Headers/AgoraMeetingCreateMeetingParams.h</key>
 		<data>
-		9PYWyjj6k+Z68IWSyEvwARRtErs=
+		AT1tt9FwF3Br83fexo+8usq//SI=
 		</data>
 		<key>Headers/AgoraMeetingDeviceInfo.h</key>
 		<data>
@@ -58,75 +58,75 @@
 		</data>
 		<key>Headers/AgoraMeetingInitAgoraParams.h</key>
 		<data>
-		4B2iM8rpjEXgKpy7pt84LtOzTis=
+		abNCRTymyyaJudrF43uVrOv2DUs=
 		</data>
 		<key>Headers/AgoraMeetingInitParams.h</key>
 		<data>
-		/cGng86j1MoVLaWrwXIy+qwG4o8=
+		M8g9IqhwAnywn+CiMvcyW0phgS8=
 		</data>
 		<key>Headers/AgoraMeetingInitVideoParams.h</key>
 		<data>
-		3KGCjAzNW9za4UepdrsNtmVzC98=
+		Ml3kMDgkcNCdue1KcjQk3zolO3M=
 		</data>
 		<key>Headers/AgoraMeetingJoinMeetingParams.h</key>
 		<data>
-		3kKLxy21+y4zLPI2MsIg9Gg8gG0=
+		HwBm1Jml92RBO5MmjotDV9EzfYM=
 		</data>
 		<key>Headers/AgoraMeetingKit.h</key>
 		<data>
-		9uFl7RoAENJlrb0PHDEMtzY2W88=
+		NS0/wZHhoOEP9CPCP9djunOpDbs=
 		</data>
 		<key>Headers/AgoraMeetingListMeetingParams.h</key>
 		<data>
-		eyHKJu7cNq3OFMdrbY2Vg+AGdb8=
+		TLR3gJzWrm0j/XlfwbCq2aI1ZOA=
 		</data>
 		<key>Headers/AgoraMeetingLoginParams.h</key>
 		<data>
-		j0BU5HhRS3lI8Kn9P51qu/tYC4Y=
+		h4IYqZWHq3ST26dCSWymEdn0Ny4=
 		</data>
 		<key>Headers/AgoraMeetingUpdateMeetingParams.h</key>
 		<data>
-		lEK6WFHUQGBWbFhQ9uiET9Qd5HA=
+		fCQ0/OvpM5+k4id6RcVkJexNsqk=
 		</data>
 		<key>Headers/AgoraMeetingUserSearchParams.h</key>
 		<data>
-		tSeGxFmGRalgAMcAfsld3MMkF2c=
+		VSIZnwEFyJKgKZQeqYtMtZjIWjk=
 		</data>
 		<key>Headers/IInMeetingRecordingController.h</key>
 		<data>
-		m2gLicEL0ThoRWNacUC/lHJD3o8=
+		iptbjoXnL7cliBN2oD5kFl8MV/Q=
 		</data>
 		<key>Headers/InMeetingAudioController.h</key>
 		<data>
-		A4zgjm9EYYLw5oVJKxfJ/zR+zNE=
+		c+5sPgwOjpYfpylMYrZQMzZLsJ0=
 		</data>
 		<key>Headers/InMeetingChatController.h</key>
 		<data>
-		u+0KEaRNKUIV0IeHAy0jYV/V9Qs=
+		PNGqRF8mwaROA+nU7RkeubFb8qg=
 		</data>
 		<key>Headers/InMeetingOTDataController.h</key>
 		<data>
-		iVIHBr8lr0etxFCKqDD1QmybYK4=
+		2VB+Nyb3gnNYiLz14lr7hetFHeo=
 		</data>
 		<key>Headers/InMeetingShareController.h</key>
 		<data>
-		cIOeXFTKLsE2wMOeAnm0JLTQmHs=
+		hgA3Nyy/YKaCLc+E1oKAklcpQKI=
 		</data>
 		<key>Headers/InMeetingUserInfo.h</key>
 		<data>
-		MiN5uIltDpEu6aKRqqcHCSDCz1U=
+		yRoqpprH9vSbQRJvPzF1ouh4a1o=
 		</data>
 		<key>Headers/InMeetingUserInfoReason.h</key>
 		<data>
-		nURSy/TcZaoVYVZjS7mDlt5BLAM=
+		MezjPpk0obxV8q+6tKFqWAjbwqo=
 		</data>
 		<key>Headers/InMeetingVideoController.h</key>
 		<data>
-		97xW1P52EYaMfsDQJF7HcPdfCWw=
+		dEoebiTBm+z9rvMiXpFjXq1gvPM=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Z3obVFju5oPc3mWuh/UnLbVRibM=
+		CAll0y/dflbfpq+2crFohdN7/Nc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -139,132 +139,132 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			gNTHKIYUWHtiFMx6oRWpAovpP+0=
+			PJAUwa5iMejUrIO2Hy/VnvNw7us=
 			</data>
 			<key>hash2</key>
 			<data>
-			/Xz4VBQ899AjjBbEtNYI1e66TJuNKGaO8Lj8zPxk+X8=
+			IdLjOWdjTdfHIBLj8fLF3xZVxAlKXKqxAJU1aPjL+Qg=
 			</data>
 		</dict>
 		<key>Headers/AMChatMessageInfo.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			I7fXbYy0G0a6rC+Woq70igKOxZY=
+			RQMC5GC6qGJNxiAlkl+xtqfYqJA=
 			</data>
 			<key>hash2</key>
 			<data>
-			R3gh/owzktE9+E/Wj/rvG/0MGPnUaQV9NKWDosUirVY=
+			rj24uq5wWoEHCafpmMyMN8sP5cQBDw/QPxW1m9Irc48=
 			</data>
 		</dict>
 		<key>Headers/AMErrorCode.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			QGlN5+AKloo6QRV2MTQEybvJ2II=
+			zCF2rcUTY14/dNTLLDSPuC4tAIs=
 			</data>
 			<key>hash2</key>
 			<data>
-			DBWIUgSEfsdGtvHNO0M5TGvgTEqho5RtUT5SujWqZGo=
+			Zi/wVLVHWytNWH1Rcj9fCPT61BlXqL4Z+oc7Ddk+THs=
 			</data>
 		</dict>
 		<key>Headers/AMInMeetingService.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			uR4/FplJ2Vvd4D+qYyJyYfonYZo=
+			lms6VqMmerJr2Xit25EA0t+agyY=
 			</data>
 			<key>hash2</key>
 			<data>
-			m1NQv+6lJbKixzaQLGTcd7ZB3Y1VMXgbm+NKWL715os=
+			yHbjc/D3Ef4DbSoINBOJfYMsLy17dBmeuCSiWJmUl3I=
 			</data>
 		</dict>
 		<key>Headers/AMMeetingInfo.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			1mFd+3+1qW4jLwyB2vfs9tK+gKA=
+			bNkiqQU8gY39dkGx1C7KSUSj9LU=
 			</data>
 			<key>hash2</key>
 			<data>
-			+CXPn/8LAL9fYya3mARU82t2/18JvI9J1OPys3/+xjM=
+			tUd+fxmRsYTtVWRjEZCtZsmGGSo/1YDIp/ZA79VPFJU=
 			</data>
 		</dict>
 		<key>Headers/AMMeetingService.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ik2ZASf2bIWLhERsJ7Tkw0hhrmk=
+			fY2/RAMcifACl/pQCfdxePtgvgM=
 			</data>
 			<key>hash2</key>
 			<data>
-			hCRCJ6+cVIE8nosxzLatqYRl0MX6tSLdwD2tqNig9s0=
+			QC6Xl/Fw5z36qRQiSLhJhab9tw4/j+iTKMKf1EwguME=
 			</data>
 		</dict>
 		<key>Headers/AMMeetingUserInfo.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			feNefoBZ05FYRWyOfV0K7YwEC50=
+			gxaP8441h18GpN7Qrou6luGsa9k=
 			</data>
 			<key>hash2</key>
 			<data>
-			J91/y1nWkXnNfibiPanpR2FitsnqwdYwuFV4NbpvKCo=
+			8T0V5gMwd4sbZuT0qGIkCdAn3+eccNG95Oehi7cJDNw=
 			</data>
 		</dict>
 		<key>Headers/AMPreMeetingService.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			yqvQtaMTgBbxE2FkQZmrBiQ23go=
+			4co901f6r14O6BviWaBsdUvMxys=
 			</data>
 			<key>hash2</key>
 			<data>
-			lEDENK8Y3dLXfXwwTz4ZaQwi1CcvGXfHVn1U5Sh6AHo=
+			lNequdJ3g8RZVAgSXTE+NmgV/1ZTaus0YyMoAr98Vjw=
 			</data>
 		</dict>
 		<key>Headers/AMRTCService.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			g8Pmj7HBcYKrxE5rGHKPnb9Du64=
+			WsyaNoGtLDWzOLiOWqRhwhdHUy0=
 			</data>
 			<key>hash2</key>
 			<data>
-			TVq3p6SOqPjcEAJdPVC/2jPtMPr0lDI/sjFqWrKyMzs=
+			hc7pls+IjeNoATEDussDdPAwhzoHBQrIm34sr+vnqm4=
 			</data>
 		</dict>
 		<key>Headers/AMRecordingInfo.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			lAtOai7miZ0OnxVMTG+KTMhnOns=
+			DxN40/Lo4tecimJ1Qla1QlCP0Jo=
 			</data>
 			<key>hash2</key>
 			<data>
-			H9+dYFR2WA+Zk7H3NnPztgicRQWStYip1OTVCbYw9Zo=
+			Lkx1vYqeN8Xvn+7SqhzlQa8+yUgd/7xfHB9bKQFfp0I=
 			</data>
 		</dict>
 		<key>Headers/AMSettingsHelper.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			eJucsKrj2/fpaZy7BqyWXFPlwI0=
+			aoo5tFfRiuhzppDvAFv8bktDS8I=
 			</data>
 			<key>hash2</key>
 			<data>
-			BwQ8+/c1s2O4Jv45WjUa5U6cYdOUUGGTP8zqERJBG7Y=
+			2T6H4y8fYEIQwoOig68pb2YHSDiJALuEskLsVYdbOHM=
 			</data>
 		</dict>
 		<key>Headers/AgoraMeetingCreateMeetingParams.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			9PYWyjj6k+Z68IWSyEvwARRtErs=
+			AT1tt9FwF3Br83fexo+8usq//SI=
 			</data>
 			<key>hash2</key>
 			<data>
-			FDA/4BaYxXcFZmO+FwnmJ8+vPdHnYpDyCuYmyeqae9c=
+			Q/rS+VLilUv5WjEctqlfju6DDhiB/kATcL7zYDYEo6I=
 			</data>
 		</dict>
 		<key>Headers/AgoraMeetingDeviceInfo.h</key>
@@ -282,187 +282,187 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			4B2iM8rpjEXgKpy7pt84LtOzTis=
+			abNCRTymyyaJudrF43uVrOv2DUs=
 			</data>
 			<key>hash2</key>
 			<data>
-			86NHeYm+7DWPtcLm88cRVWF1HlywKalV5pKmP9x8UsI=
+			MewOgcJl+5hr3XWiU4sla8kk5gk87UATanm2IFeT17U=
 			</data>
 		</dict>
 		<key>Headers/AgoraMeetingInitParams.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			/cGng86j1MoVLaWrwXIy+qwG4o8=
+			M8g9IqhwAnywn+CiMvcyW0phgS8=
 			</data>
 			<key>hash2</key>
 			<data>
-			RUWyQzl0zMHO67+GYWcbHXACWxXnd+uNJKH7fk6mgVU=
+			+OLsX5/XjFLQbwXxa5RJoEHwbOxzrEOg5yveX0XVh0M=
 			</data>
 		</dict>
 		<key>Headers/AgoraMeetingInitVideoParams.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			3KGCjAzNW9za4UepdrsNtmVzC98=
+			Ml3kMDgkcNCdue1KcjQk3zolO3M=
 			</data>
 			<key>hash2</key>
 			<data>
-			v/Jwtdqhz1whu6Q+2rlnKfntgyExQZ1DPSxVlu0JiFg=
+			1vLOVUriKg+l6RmPiEYcI2S5eYy+9J3bBdbGcVEys1Y=
 			</data>
 		</dict>
 		<key>Headers/AgoraMeetingJoinMeetingParams.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			3kKLxy21+y4zLPI2MsIg9Gg8gG0=
+			HwBm1Jml92RBO5MmjotDV9EzfYM=
 			</data>
 			<key>hash2</key>
 			<data>
-			dkpZbgXtW88w8RyoEkRp1k5GWUDrKtg2ELmm+hhHLng=
+			N0bKXLyvcHuvBCR/9EHNspenQBaZcRApdn4QRx3EEss=
 			</data>
 		</dict>
 		<key>Headers/AgoraMeetingKit.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			9uFl7RoAENJlrb0PHDEMtzY2W88=
+			NS0/wZHhoOEP9CPCP9djunOpDbs=
 			</data>
 			<key>hash2</key>
 			<data>
-			ydT3+2omKz4SWO1L89X3c/MDzKl6egALy8C5e7mYegI=
+			vQUeibLzCx1xciJfw5vE7KSQkCT8JpQ1RWUnuj42tSI=
 			</data>
 		</dict>
 		<key>Headers/AgoraMeetingListMeetingParams.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			eyHKJu7cNq3OFMdrbY2Vg+AGdb8=
+			TLR3gJzWrm0j/XlfwbCq2aI1ZOA=
 			</data>
 			<key>hash2</key>
 			<data>
-			BMubVtR1TxzCaaoYraxpbO6HkNF+ROJ6JZ8ISOa4wo0=
+			Iq30dJ8vlH+pCAs0/2VyOQXFVM00NDMc855qfEslVWo=
 			</data>
 		</dict>
 		<key>Headers/AgoraMeetingLoginParams.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			j0BU5HhRS3lI8Kn9P51qu/tYC4Y=
+			h4IYqZWHq3ST26dCSWymEdn0Ny4=
 			</data>
 			<key>hash2</key>
 			<data>
-			fLoK6UDC+eYZ7kZCwnVQO8DEocjPqrvroqjIlOc91CE=
+			caBOcN2XEQZIAzGQaY2IbmtrXp/4xBU8d+dBf7qN7CA=
 			</data>
 		</dict>
 		<key>Headers/AgoraMeetingUpdateMeetingParams.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			lEK6WFHUQGBWbFhQ9uiET9Qd5HA=
+			fCQ0/OvpM5+k4id6RcVkJexNsqk=
 			</data>
 			<key>hash2</key>
 			<data>
-			Dkfj/cG8auxXLbBYO8WtvBVFiye53ZF05+RiCsqBPzY=
+			aXGqIQdNLmUHPetxMrqQPMpA3tFPpS1L7bgaDSJdnJg=
 			</data>
 		</dict>
 		<key>Headers/AgoraMeetingUserSearchParams.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			tSeGxFmGRalgAMcAfsld3MMkF2c=
+			VSIZnwEFyJKgKZQeqYtMtZjIWjk=
 			</data>
 			<key>hash2</key>
 			<data>
-			DUdmuCAO113GJYQXidezAV7HdcqKPFZtZ8EYS3mo+a4=
+			OPfKtwZ/yVqkiIV+M7BwTtPG/tlTAxEBBIlUPL2nGoI=
 			</data>
 		</dict>
 		<key>Headers/IInMeetingRecordingController.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			m2gLicEL0ThoRWNacUC/lHJD3o8=
+			iptbjoXnL7cliBN2oD5kFl8MV/Q=
 			</data>
 			<key>hash2</key>
 			<data>
-			JA7ViKzPQJMWWwhNtCqaYt0O1/zXx1a5B9kSXMehqIU=
+			Z/GuSTU66BxtYph614V91+wppvEfftH7mX/HkTkXIcg=
 			</data>
 		</dict>
 		<key>Headers/InMeetingAudioController.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			A4zgjm9EYYLw5oVJKxfJ/zR+zNE=
+			c+5sPgwOjpYfpylMYrZQMzZLsJ0=
 			</data>
 			<key>hash2</key>
 			<data>
-			O39CZiA7lqmR8mrc+TMUADFHujL4FajTmmJRvzvCRH0=
+			lXY1x1n0qPeTIpzOWvvXF3kNZuBZVo9TB+JUu9aBF+o=
 			</data>
 		</dict>
 		<key>Headers/InMeetingChatController.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			u+0KEaRNKUIV0IeHAy0jYV/V9Qs=
+			PNGqRF8mwaROA+nU7RkeubFb8qg=
 			</data>
 			<key>hash2</key>
 			<data>
-			F+V4UFVudgW1BbQEPMDaiQYlXF6mLq7z0fqOjf1Cegg=
+			Scs8Sbty4riXG6kO8M2hYd1wl3O933wzrLw71Z4Z1C4=
 			</data>
 		</dict>
 		<key>Headers/InMeetingOTDataController.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			iVIHBr8lr0etxFCKqDD1QmybYK4=
+			2VB+Nyb3gnNYiLz14lr7hetFHeo=
 			</data>
 			<key>hash2</key>
 			<data>
-			KYT7yUVVwJSv1rAJ/PdvTii2GG0g9iPUGF+KN962IFw=
+			RuaSQuoijU5jXsH2oUC0CKK4VBGcgamwuaOgdRzG/Ro=
 			</data>
 		</dict>
 		<key>Headers/InMeetingShareController.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			cIOeXFTKLsE2wMOeAnm0JLTQmHs=
+			hgA3Nyy/YKaCLc+E1oKAklcpQKI=
 			</data>
 			<key>hash2</key>
 			<data>
-			3kPRSahFgbGNzIox3S/4owf6L+IXTY1BcAL8SjT8Z70=
+			O6lrec30OWoEiq1tz/15drN/l/IboFflylnapObScZE=
 			</data>
 		</dict>
 		<key>Headers/InMeetingUserInfo.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			MiN5uIltDpEu6aKRqqcHCSDCz1U=
+			yRoqpprH9vSbQRJvPzF1ouh4a1o=
 			</data>
 			<key>hash2</key>
 			<data>
-			L5ZGPrldTNXBFlUDC04Uxx/CDbkyV5P17K3+Bwbvjqo=
+			sfx1xzoDDQdXzUBEbUddgAdpe27QXLvc2FzY75QUYoI=
 			</data>
 		</dict>
 		<key>Headers/InMeetingUserInfoReason.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			nURSy/TcZaoVYVZjS7mDlt5BLAM=
+			MezjPpk0obxV8q+6tKFqWAjbwqo=
 			</data>
 			<key>hash2</key>
 			<data>
-			2IPjtUSmBMRyR26kSXtm31KwoCn6MqRC8Wiq5HA8qpQ=
+			IozFlKmBiWLzWce1cewQX3KIY3d+Z3f5cb9ju/euKUw=
 			</data>
 		</dict>
 		<key>Headers/InMeetingVideoController.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			97xW1P52EYaMfsDQJF7HcPdfCWw=
+			dEoebiTBm+z9rvMiXpFjXq1gvPM=
 			</data>
 			<key>hash2</key>
 			<data>
-			WLNwwZGOJY2b+fBvW2IjaOtjs+wPCTNiK8/vGUBG+f4=
+			afACIbZmaQz2mT/nEQvoxb+W4TBo/Te8D+gLXqTWGUU=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

@@ -5,32 +5,34 @@
 //  Created by caizehua on 2022/7/13.
 //
 
+#import <Foundation/Foundation.h>
 #import "AMErrorCode.h"
 #import <AgoraRtcKit/AgoraRtcEngineKit.h>
-#import <Foundation/Foundation.h>
 NS_ASSUME_NONNULL_BEGIN
 typedef NS_ENUM(NSInteger, AMAudioDeviceRouting) {
-
+    
+    
     /**
      @brief 听筒
      */
     AMAudioDeviceRoutingReceiver = 1,
-
+    
     /**
      @brief 扬声器
      */
-    AMAudioDeviceRoutingSpeaker = 2,
-
+    AMAudioDeviceRoutingSpeaker= 2,
+    
     /**
      @brief 蓝牙
      */
-    AMAudioDeviceRoutingBlueTooth = 3,
-
+    AMAudioDeviceRoutingBlueTooth= 3,
+    
     /**
      @brief 耳机
      */
     AMAudioDeviceRoutingHeadset = 4,
-
+    
+    
 };
 
 /**
@@ -43,14 +45,15 @@ typedef NS_ENUM(NSInteger, AMAudioDeviceRouting) {
  * @brief 音频路由已发生变化回调
  * @routing   当前的音频路由
  */
-- (void)onAudioRouteChanged:(AMAudioDeviceRouting)routing;
-
+-(void)onAudioRouteChanged:(AMAudioDeviceRouting)routing;
+ 
 @end
+
 
 /**
  @brief 音频控制器
  */
-@interface InMeetingAudioController : NSObject
+@interface InMeetingAudioController: NSObject
 
 /**
  @brief 音频控制器的事件回调
@@ -61,14 +64,14 @@ typedef NS_ENUM(NSInteger, AMAudioDeviceRouting) {
  @brief 当前的音频路由
  @return 当前的音频路由
  */
-- (AMAudioDeviceRouting)getAudioDeiceRouting;
+-(AMAudioDeviceRouting) getAudioDeiceRouting;
 
 /**
  @brief 是否打开麦克风
  @param open 是否打开
  @return 操作码
  */
-- (AMErrorCode)openMicrophone:(BOOL)open;
+-(AMErrorCode)openMicrophone:(BOOL)open;
 
 /**
  @brief 接受主持人的请求来打开麦克风
@@ -76,7 +79,7 @@ typedef NS_ENUM(NSInteger, AMAudioDeviceRouting) {
  @param fromHost 是否来自主持人请求
  @return 操作码
  */
-- (AMErrorCode)openMicrophone:(BOOL)open fromHost:(BOOL)fromHost;
+-(AMErrorCode)openMicrophone:(BOOL)open fromHost:(BOOL) fromHost;
 
 /**
  @brief 接受主持人的请求来打开麦克风
@@ -85,36 +88,37 @@ typedef NS_ENUM(NSInteger, AMAudioDeviceRouting) {
  @param reason 原因
  @return 操作码
  */
-- (AMErrorCode)openMicrophone:(BOOL)open fromHost:(BOOL)fromHost reason:(NSString *)reason;
+-(AMErrorCode)openMicrophone:(BOOL)open fromHost:(BOOL) fromHost reason:(NSString*)reason;
 
 /**
  @brief 打开或者关闭扬声器
  */
-- (void)useSpeakerphone:(BOOL)isSpeakerphone;
+-(void)useSpeakerphone:(BOOL) isSpeakerphone;
+ 
 
 /**
  @brief 切换静音操作
  @return 操作码
  */
-- (AMErrorCode)switchOpenMicrophone;
+-(AMErrorCode) switchOpenMicrophone;
 
 /**
  @brief  检测是否连接蓝牙
  @return YES:连接  NO:未连接
  */
-- (BOOL)isBleToothOutput;
+-(BOOL)isBleToothOutput;
 
 /**
  @param level 0 关闭 1传统降噪 2 低级ai降噪 3高级ai降噪
  @brief 设置AI降噪等级
  */
-- (void)setAiNsLevel:(int)level;
+-(void)setAiNsLevel:(int)level;
 
 /**
  @return 0 关闭 1传统降噪 2 低级ai降噪 3高级ai降噪
  @brief 获取AI降噪等级
  */
-- (int)getAiNsLevel;
+-(int)getAiNsLevel;
 
 /**
  @param profile 音频编码属性，包含采样率、码率、编码模式和声道数。详见 AgoraAudioProfile。

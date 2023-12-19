@@ -18,37 +18,37 @@ NS_ASSUME_NONNULL_BEGIN
  @brief 加入会议时，设置麦克风默认的状态
  @param open  YES:打开 NO：关闭
  */
-- (void)setOpenMicrophoneWhenJoinMeeting:(BOOL)open;
+-(void)setOpenMicrophoneWhenJoinMeeting:(BOOL)open;
 
 /**
  @brief  当加入会议时，麦克风的状态
  @return  YES:打开 NO：关闭
  */
-- (BOOL)isOpenMicrophoneWhenJoinMeeting;
+-(BOOL)isOpenMicrophoneWhenJoinMeeting;
 
 /**
  @brief 加入会议时，设置摄像头默认的状态
  @param open  YES:打开 NO：关闭
  */
-- (void)setOpenCameraWhenJoinMeeting:(BOOL)open;
+-(void)setOpenCameraWhenJoinMeeting:(BOOL)open;
 
 /**
  @brief  当加入会议时，摄像头的状态
  @return  YES:打开 NO：关闭
  */
-- (BOOL)isOpenCameraWhenJoinMeeting;
+-(BOOL)isOpenCameraWhenJoinMeeting;
 
 /**
  @brief 加入会议时，设置扬声器默认的状态
  @param open  YES:打开 NO：关闭
  */
-- (void)setOpenSpeakerWhenJoinMeeting:(BOOL)open;
+-(void)setOpenSpeakerWhenJoinMeeting:(BOOL)open;
 
 /**
  @brief  当加入会议时，扬声器的状态
  @return  YES:打开 NO：关闭
  */
-- (BOOL)isOpenSpeakerWhenJoinMeeting;
+-(BOOL)isOpenSpeakerWhenJoinMeeting;
 @end
 
 NS_ASSUME_NONNULL_END
