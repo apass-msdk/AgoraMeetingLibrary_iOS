@@ -5,12 +5,12 @@
 //  Created by 蔡泽华 on 2022/12/7.
 //
 
-#import <Foundation/Foundation.h>
-#import "AMRecordingInfo.h"
 #import "AMErrorCode.h"
+#import "AMRecordingInfo.h"
+#import <Foundation/Foundation.h>
 NS_ASSUME_NONNULL_BEGIN
 
-typedef void (^AMInMeetingRecordingCallBack)(AMErrorCode code,NSString* message);
+typedef void (^AMInMeetingRecordingCallBack)(AMErrorCode code, NSString *message);
 /**
  @brief 聊天控制器的的事件
  */
@@ -20,12 +20,12 @@ typedef void (^AMInMeetingRecordingCallBack)(AMErrorCode code,NSString* message)
 /**
 @brief 开始云录制
  */
--(void)onMeetingRecordingStart:(AMRecordingInfo*) recordingInfo;
+- (void)onMeetingRecordingStart:(AMRecordingInfo *)recordingInfo;
 
 /**
  @brief 结束云录制
  */
--(void)onMeetingRecordingStop;
+- (void)onMeetingRecordingStop;
 @end
 
 @interface IInMeetingRecordingController : NSObject
@@ -38,18 +38,18 @@ typedef void (^AMInMeetingRecordingCallBack)(AMErrorCode code,NSString* message)
  @brief 开始云录制
  @param callBack 结果的回调
  */
--(void)startMeetingRecordingWithCallBack: (AMInMeetingRecordingCallBack)callBack;
+- (void)startMeetingRecordingWithCallBack:(AMInMeetingRecordingCallBack)callBack;
 
 /**
  @brief 结束云录制
  @param callBack 结果的回调
  */
--(void)stopMeetingRecordingWithCallBack: (AMInMeetingRecordingCallBack)callBack;
+- (void)stopMeetingRecordingWithCallBack:(AMInMeetingRecordingCallBack)callBack;
 
 /**
  @brief 获取云录制记录
  */
--(AMRecordingInfo*)getRecordingInfo;
+- (AMRecordingInfo *)getRecordingInfo;
 
 @end
 

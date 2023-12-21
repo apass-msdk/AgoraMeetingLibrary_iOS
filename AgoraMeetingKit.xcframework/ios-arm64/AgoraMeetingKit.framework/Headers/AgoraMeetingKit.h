@@ -5,32 +5,32 @@
 //  Created by tx on 2022/7/10.
 //
 
-#import <Foundation/Foundation.h>
 #import "AMAccountService.h"
-#import "AgoraMeetingLoginParams.h"
-#import "AMPreMeetingService.h"
 #import "AMErrorCode.h"
+#import "AMInMeetingService.h"
+#import "AMMeetingService.h"
+#import "AMPreMeetingService.h"
+#import "AMRTCService.h"
 #import "AMSettingsHelper.h"
 #import "AgoraMeetingInitParams.h"
-#import "AMMeetingService.h"
-#import "AMRTCService.h"
-#import "AMInMeetingService.h"
+#import "AgoraMeetingLoginParams.h"
+#import <Foundation/Foundation.h>
 NS_ASSUME_NONNULL_BEGIN
 
-typedef void(^AMForceLogoutCallback)(void);
+typedef void (^AMForceLogoutCallback)(void);
 
-typedef void(^AMTokenTimeoutCallback)(void);
+typedef void (^AMTokenTimeoutCallback)(void);
 
-typedef void(^AMMessageCallback)(NSString* message);
+typedef void (^AMMessageCallback)(NSString *message);
 
-typedef void (^AMLoginCallBack)(AMErrorCode code,NSString* message);
+typedef void (^AMLoginCallBack)(AMErrorCode code, NSString *message);
 
-typedef void (^AMInitializeCallBack)(AMErrorCode code,NSString* message);
+typedef void (^AMInitializeCallBack)(AMErrorCode code, NSString *message);
 
 /**
  @brief 提供了 SDK 调用的主要方法
  */
-@interface AgoraMeetingKit  : NSObject
+@interface AgoraMeetingKit : NSObject
 
 /**
  @brief 获取 AgoraMeetingKit 实例。
@@ -55,21 +55,20 @@ typedef void (^AMInitializeCallBack)(AMErrorCode code,NSString* message);
  */
 - (void)setOnTokenTimeoutCallback:(AMTokenTimeoutCallback)callback;
 
-
 /**
  @brief 初始化函数
  @param param 一些配置参数 详见 AgoraMeetingInitParams
  @param callBack 初始化之后的回调
  */
-- (void)initialize:(AgoraMeetingInitParams*)param  withCallBack:(AMInitializeCallBack)callBack;
+- (void)initialize:(AgoraMeetingInitParams *)param withCallBack:(AMInitializeCallBack)callBack;
 
 /**
  @brief 用户登录
  @param param 一些登录参数 详见 AgoraMeetingLoginParams
  @param callBack 登录之后的回调
  */
-- (void)loginWithParam:(AgoraMeetingLoginParams*)param withCallBack:(AMLoginCallBack)callBack;
- 
+- (void)loginWithParam:(AgoraMeetingLoginParams *)param withCallBack:(AMLoginCallBack)callBack;
+
 /**
  @brief 用户登录
  @param token 口令
@@ -77,18 +76,17 @@ typedef void (^AMInitializeCallBack)(AMErrorCode code,NSString* message);
  @param avatar 头像
  @param callBack 登录之后的回调
  */
-- (void)loginByToken:(NSString*)token
-            withUserid:(NSString*)userid
-            withAvatar:(NSString*)avatar withCallBack:(AMLoginCallBack)callBack;
-
-
+- (void)loginByToken:(NSString *)token
+          withUserid:(NSString *)userid
+          withAvatar:(NSString *)avatar
+        withCallBack:(AMLoginCallBack)callBack;
 
 /**
  @brief 强制登录
  @param param 一些登录参数 详见 AgoraMeetingLoginParams
  @param callBack 登录之后的回调
  */
-- (void)forceLoginWithParam:(AgoraMeetingLoginParams*)param withCallBack:(AMLoginCallBack)callBack;
+- (void)forceLoginWithParam:(AgoraMeetingLoginParams *)param withCallBack:(AMLoginCallBack)callBack;
 
 /**
  @brief 是否登录
@@ -108,48 +106,44 @@ typedef void (^AMInitializeCallBack)(AMErrorCode code,NSString* message);
 /**
  @brief 得到用户服务
  */
-- (AMAccountService*)getAccountServic;
- 
+- (AMAccountService *)getAccountServic;
+
 /**
  @brief 获取预定会议服务
  */
-- (AMPreMeetingService*)getPreMeetingService;
+- (AMPreMeetingService *)getPreMeetingService;
 
 /**
  @brief 获取会议服务
  */
-- (AMMeetingService*)getMeetingService;
+- (AMMeetingService *)getMeetingService;
 
 /**
  @brief 获取设置帮助类
  */
-- (AMSettingsHelper*)getSettingsHelper;
+- (AMSettingsHelper *)getSettingsHelper;
 
 /**
  @brief  获取会议中的服务
  */
-- (AMInMeetingService*)getInMeetingService;
+- (AMInMeetingService *)getInMeetingService;
 
 /**
  @brief  声网的RTC服务
  */
-- (AMRTCService*)getRTCService;
+- (AMRTCService *)getRTCService;
 
-
--(NSDictionary*)getVersionInfo;
-
+- (NSDictionary *)getVersionInfo;
 
 /**
  @brief  销毁当前sdk
  */
--(void)destory;
-
+- (void)destroy;
 
 /**
  @brief  重制当前sdk
  */
--(void)rest;
-
+- (void)reset;
 
 @end
 

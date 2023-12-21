@@ -5,8 +5,8 @@
 //  Created by caizehua on 2022/8/15.
 //
 
-#import <Foundation/Foundation.h>
 #import "AgoraMeetingCreateMeetingParams.h"
+#import <Foundation/Foundation.h>
 NS_ASSUME_NONNULL_BEGIN
 
 /**
@@ -17,7 +17,7 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  @brief 会议编号
  */
-@property (nullable, nonatomic, retain, readwrite) NSString * meetingId;
+@property (nullable, nonatomic, retain, readwrite) NSString *meetingId;
 @end
 
 NS_ASSUME_NONNULL_END

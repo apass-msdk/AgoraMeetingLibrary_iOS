@@ -5,10 +5,10 @@
 //  Created by caizehua on 2022/8/15.
 //
 
-#import <Foundation/Foundation.h>
 #import "AMMeetingUserInfo.h"
 #import "InMeetingUserInfoReason.h"
 #import <AgoraRtcKit/AgoraRtcEngineKit.h>
+#import <Foundation/Foundation.h>
 NS_ASSUME_NONNULL_BEGIN
 
 /**
@@ -19,77 +19,76 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  @brief  麦克风状态
  */
-@property (nullable, nonatomic, retain, readwrite) NSString * microphone;
+@property (nullable, nonatomic, retain, readwrite) NSString *microphone;
 
 /**
  @brief  举手状态
  */
-@property (nullable, nonatomic, retain, readwrite) NSString * raisehand;
+@property (nullable, nonatomic, retain, readwrite) NSString *raisehand;
 
 /**
  @brief  摄像头状态
  */
-@property (nullable, nonatomic, retain, readwrite) NSString * camera;
+@property (nullable, nonatomic, retain, readwrite) NSString *camera;
 
 /**
  @brief  用户的声网ID
  */
-@property (nonatomic, assign, readwrite) long  agoraUserId;
+@property (nonatomic, assign, readwrite) long agoraUserId;
 
 /**
  @brief  用户的分享声网ID
  */
-@property (nonatomic, assign, readwrite) long  agoraShareUserId;
+@property (nonatomic, assign, readwrite) long agoraShareUserId;
 
 /**
  @brief  扩展字段
  */
-@property (nullable, nonatomic, retain, readwrite) NSString * reserved;
+@property (nullable, nonatomic, retain, readwrite) NSString *reserved;
 
 /**
  @brief 各种原因
  */
-@property (nonatomic, strong) InMeetingUserInfoReason*  reason;
+@property (nonatomic, strong) InMeetingUserInfoReason *reason;
 
 /**
  @brief  是否是主持人
  */
--(BOOL)isHost;
+- (BOOL)isHost;
 
 /**
  @brief  是否正在申请打开摄像头
  */
--(BOOL)isApplyOpenCamera;
+- (BOOL)isApplyOpenCamera;
 
 /**
  @brief  是否正在申请打开麦克风
  */
--(BOOL)isApplyOpenMicrophone;
+- (BOOL)isApplyOpenMicrophone;
 
 /**
  @brief  是否是执行主持人
  */
--(BOOL)isActingHost;
+- (BOOL)isActingHost;
 
 /**
  @brief  是否是联席主持人
  */
--(BOOL)isCoHost;
+- (BOOL)isCoHost;
 
 /**
  @brief  是否是原始主持人
  */
--(BOOL)isOriginHost;
-
+- (BOOL)isOriginHost;
 
 /**
-  * @biref
-  * SUB_STATE_NO_SUBSCRIBED (1): 订阅失败。
-  * SUB_STATE_IDLE (0): 加入频道后的初始订阅状态。
-  * SUB_STATE_SUBSCRIBING (2): 正在订阅。
-  * SUB_STATE_SUBSCRIBED (3): 收到了远端流，订阅成功。
-  */
--(AgoraStreamSubscribeState) getVideoSubscribeState;
+ * @biref
+ * SUB_STATE_NO_SUBSCRIBED (1): 订阅失败。
+ * SUB_STATE_IDLE (0): 加入频道后的初始订阅状态。
+ * SUB_STATE_SUBSCRIBING (2): 正在订阅。
+ * SUB_STATE_SUBSCRIBED (3): 收到了远端流，订阅成功。
+ */
+- (AgoraStreamSubscribeState)getVideoSubscribeState;
 
 /**
  * @biref
@@ -97,12 +96,12 @@ NS_ASSUME_NONNULL_BEGIN
  * 1：视频小流。
  * -1:默认大小
  */
--(int) getStreamType;
+- (int)getStreamType;
 
 /**
  * @biref 是否在rtc的频道内
  */
--(BOOL) isInRtcChannel;
+- (BOOL)isInRtcChannel;
 
 @end
 

@@ -18,8 +18,8 @@ NS_ASSUME_NONNULL_BEGIN
  @brief 会议状态
  @see "wating", "meeting", "finished"
  */
-@property (nullable, nonatomic, retain, readwrite) NSString * status;
- 
+@property (nullable, nonatomic, retain, readwrite) NSString *status;
+
 /**
  @brief 页码
  */
@@ -29,7 +29,7 @@ NS_ASSUME_NONNULL_BEGIN
  @brief 会议类型
  @see 'any' 所有会议，'onlyhost' 仅为主持人，'onlyparticipant' 仅为参会人
  */
-@property (nullable, nonatomic, retain, readwrite) NSString * type;
+@property (nullable, nonatomic, retain, readwrite) NSString *type;
 
 /**
 @brief 每页数量

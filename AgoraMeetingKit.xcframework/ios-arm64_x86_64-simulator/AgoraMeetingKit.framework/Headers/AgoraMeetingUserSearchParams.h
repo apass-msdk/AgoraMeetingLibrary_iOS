@@ -18,7 +18,7 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  @brief 搜索内容
  */
-@property (nullable, nonatomic, retain, readwrite) NSString * searchText;
+@property (nullable, nonatomic, retain, readwrite) NSString *searchText;
 
 /**
 @brief 每页数量
