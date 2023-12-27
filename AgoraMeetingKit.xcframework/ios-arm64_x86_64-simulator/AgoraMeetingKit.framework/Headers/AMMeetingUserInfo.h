@@ -36,6 +36,11 @@ NS_ASSUME_NONNULL_BEGIN
  */
 @property (nullable, nonatomic, retain, readwrite) NSString *avatar;
 
+/**
+ @brief  用户类型
+ */
+@property (nullable, nonatomic, retain, readwrite) NSString *type;
+
 @end
 
 NS_ASSUME_NONNULL_END
