@@ -199,7 +199,7 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  @brief 停止屏幕分享
  */
-- (void)stopShareScreen;
+- (AMErrorCode)stopShareScreen;
 
 /**
  * @return true：是的 false：不是

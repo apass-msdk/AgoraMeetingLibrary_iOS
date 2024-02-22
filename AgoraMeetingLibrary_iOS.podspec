@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AgoraMeetingLibrary_iOS'
-  s.version          = '1.11.0.0.3'
+  s.version          = '1.11.0.1'
   s.summary          = 'A short description of AgoraMeetingLibrary.'
 
 # This description is used to generate tags and improve search results.
@@ -33,7 +33,7 @@ TODO: Add long description of the pod here.
   s.requires_arc = true
   s.vendored_frameworks = 'AgoraMeetingKit.xcframework'
   s.dependency  'MJExtension','3.2.4'
-  s.dependency  'AgoraRtcEngine_Special_iOS', '4.2.6.3'
+  s.dependency  'AgoraRtcEngine_Special_iOS', '4.2.6.232'
   s.dependency  'AFNetworking/Serialization',   '4.0.1'
   s.dependency  'AFNetworking/Security',        '4.0.1'
   s.dependency  'AFNetworking/Reachability',    '4.0.1'
