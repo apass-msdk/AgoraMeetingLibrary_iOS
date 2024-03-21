@@ -95,6 +95,11 @@ typedef enum {
     AMErrorCode_ERROR_ALREADY_INIT = 2,
 
     /**
+     @brief sdkz初始化
+     */
+    AMErrorCode_ERROR_INITING = 6,
+
+    /**
      @brief sdk已经被登录
      */
     AMErrorCode_ERROR_ALREADY_LOGIN = 3,
