@@ -95,7 +95,7 @@ typedef enum {
     AMErrorCode_ERROR_ALREADY_INIT = 2,
 
     /**
-     @brief sdkz初始化
+     @brief sdk正在进行初始化
      */
     AMErrorCode_ERROR_INITING = 6,
 
